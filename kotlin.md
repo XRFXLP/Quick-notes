@@ -39,3 +39,28 @@ var variable = readLine()
 ```
 
 In order to get length, use `.length`(this is not a function, just an attribute)
+
+
+Conditionals are same as JS
+
+```kotlin
+if(some_conditions)
+{
+  ;
+}
+else if{...}
+{ ... }
+else
+{ .. }
+```
+
+Lists:
+```kotlin
+var(or val for immutability) x = listOf("a", "hello", "b");
+```
+or
+```kotlin
+var x: List<String>
+x = listOf("a", "hello", "b");
+```
+
